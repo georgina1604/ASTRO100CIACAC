@@ -199,3 +199,60 @@ header, main, aside, footer {
 .articulo ul{
     width: 80%;
 }
+
+/* media query de Nosotros.html*/
+
+@media  screen and (max-width: 450px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .header li {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #informacion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .contenedor > h2{
+        justify-content: left;
+
+    }
+
+    #imagen1{
+        width: 90%;
+    } 
+
+    #imagen2{
+        width: 90%;
+    }
+
+    .box-slogan .slogan {
+        background-image: url(/img/nebulosa.jpg);
+        background-size: cover;
+        font-size: 30px;
+        height: 100px;
+        text-align: center;
+    }
+
+    .novedades {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+    #articulo1 {
+        width: 90%;
+    }
+
+    #articulo2{
+        width: 90%;
+    }
+
+}
